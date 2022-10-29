@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    background-image: radial-gradient(rgba(15, 61, 15, 0.6), rgba(43, 88, 70, 0.9)), url(images/background.jpg);
+    width: 100%;
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-item:hover {
+    border-bottom: 4px solid white;
+}
+
+#header-font-1-about {
+    font-size: 70px;
+}
+#header-font-1-about{
+    font-size: 25px;
+}
+
+#image-center {
+    margin-top: 5px;
+}
+
+#image-center h1 {
+    font-size: 34px;
+}
+
+
+
+#main-3-heading {
+    font-weight: 600;
+}
+
+#main-3-heading-small {
+}
+
+button {
+}
+
+@media (max-width:700px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+    #img-cen {
+        margin: 10px;
+    }
+    #header-font-1 {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    #header-font-2 {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    #header-font-1-about{
+        font-size: 12px;
+    }
+    #header-font-2-about{
+        font-size: 14px;
+    }
+    #header-font-about{
+       height: 40vh;
+    }
+}
